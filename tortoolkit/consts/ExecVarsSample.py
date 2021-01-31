@@ -5,12 +5,12 @@ except:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
         IS_VPS = False
-        API_HASH = "649e419e5fa739da02b649780d492c1b"
-        API_ID = 2048409
-        BOT_TOKEN = "1416905671:AAFphEyYU2aln3aDrKZFZe6sWO_g_0h-IWU"
-        BASE_URL_OF_BOT = "http://t.me/zunixbot"
+        API_HASH = "59a8f745ed0ca831e697b8a0bf28d2f0"
+        API_ID = 2388586
+        BOT_TOKEN = "1617462600:AAHZ7PKh6HiY3guqvMyRvlKNfYR1W-rK22Q-IWU"
+        BASE_URL_OF_BOT = "http://t.me/unnamedKKbot"
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [1464067320,911646244,-1001287210872]
+        ALD_USR = [911646244,-1001235672935,899602727]
         
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 20
@@ -28,13 +28,13 @@ except:
         REMAINING_STR = "□"
 
         # DB URI for access
-        DB_URI = "postgresql://postgres:toolkiit@postgresql/postgres"
+        DB_URI = "postgresql://postgres:unnamedkk@postgresql/postgres"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # The base direcory to which the files will be upload if using RCLONE
-        RCLONE_BASE_DIR = "/movie"
+        RCLONE_BASE_DIR = "/"
 
         # This value will be considered only if Rclone is True - this may be defied now ;)
         # Cuz at least one needs to be Ture at a time either RCLONE or Leech.
@@ -57,7 +57,7 @@ except:
         MAX_YTPLAYLIST_SIZE = 20
         
         # Max size of the torrent allowed
-        MAX_TORRENT_SIZE = 20
+        MAX_TORRENT_SIZE = 10
 
         # This is to stop someone from abusing the system by imposing the limit
         # [<GBs of total torrent sapce>, <Number of youtube videos allowed to download>, <Number of youtube playlists allowed to download>]
